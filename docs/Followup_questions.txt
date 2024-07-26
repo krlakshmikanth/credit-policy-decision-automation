@@ -1,0 +1,9 @@
+Follow-up questions:
+
+Solution customisation: Are there any specific integration(AI Solution, statistical model or such) NB36 requires beyond the current scope?
+Regulatory requirements: Any regulatory considerations specific to the markets NB36 is targeting? 
+Legacy system integration: Are there existing systems that need to be integrated with the proposed architecture?
+Knock-out criteria: Are there changes required to customise the existing knock-out criterias?
+Manual review process: What are NB36’s preferences for handling manual review scenarios?
+API access and data sharing: Confirm API access permissions and any data-sharing agreements required
+Testing environment: Discuss the availability of staging and production environments for testing purposes
