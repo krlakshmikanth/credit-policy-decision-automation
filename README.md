@@ -30,3 +30,20 @@ Clone the repository and run the Python script:
 git clone https://github.com/krlakshmikanth/credit-policy-decision-automation.git
 cd credit-policy-decision-automation
 python credit_limit_determination.py
+
+## Usage
+
+- This script evaluates credit applications based on specified criteria and prints the results for each applicant.
+
+## Documentation 
+
+- Detailed documentation is available in the docs/ folder.
+
+## Architecture
+
+- Architecture document is available in the resources/ folder.
+
+## Contact
+
+- Name: Lakshmikanth Karur Rajamani
+- Email: lakshmikanthrajamani@gmail.com
