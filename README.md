@@ -30,6 +30,7 @@ Clone the repository and run the Python script:
 git clone https://github.com/krlakshmikanth/credit-policy-decision-automation.git
 cd credit-policy-decision-automation
 python credit_limit_determination.py
+```
 
 ## Usage
 
