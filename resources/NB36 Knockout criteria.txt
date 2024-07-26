@@ -1,0 +1,52 @@
+Knock-Out Criteria for NB36's Credit Policy Decision Automation
+
+Pre-selection Criteria
+
+1. Basic Validation
+   - Minimum Age: Applicant must meet the minimum age requirement.
+   - Income: Applicant must meet the minimum income threshold.
+   - Employment Status: Applicant must have verified employment.
+
+2. KYC Verification
+   - SEON Fraud API Score:
+     - 0-10: The action is safe and can be approved automatically.
+     - 10-20: The action could be risky and should be reviewed manually.
+     - 20 or more: The action is risky and will be declined.
+
+Creditworthy Assessment
+
+3. Credit History Assessment
+   - Experian API Credit Score Threshold:
+     - 740 or more: The action can be approved automatically.
+     - 670 or more but less than 740: The action is safe and can be considered for the next steps.
+     - Less than 670: Manual review or rejection is required.
+   - Length of Credit History: Must be more than 2 years.
+   - Number of Credit Payments:
+     - No late payments over 30 days in the past 12 months.
+     - No more than 1 late payment in the past 24 months.
+   - Automation Rejections: Recent delinquencies will result in automatic rejection.
+   - Public Records: Automatic rejection for bankruptcies, judgments, or liens reported within the last 5 years.
+
+4. Income Verification
+   - Plaid Income API: Verify income category, pay frequency, and total amount.
+
+Affordability and Limit Calculation
+
+5. Credit Limit Determination
+   - Debt-to-Income Ratio: Maximum allowable ratio is 40%.
+   - Credit Score: Must be greater than 670.
+   - Existing Credit Obligations: Rejection if debt exceeds 50% of the available credit limit.
+   - Employment Duration: Less than 6 months requires manual review.
+   - Credit Utilisation Ratio: Must be less than 35%.
+
+6. Interest Rate Calculation
+   - Credit Score: Higher scores result in lower interest rates.
+   - Payment History: If more than 2 payments are missed, the interest rate will be increased.
+   - Loan Amount and Term: Interest rate is customised according to the loan amount and repayment timelines (longer terms result in higher interest).
+   - Existing Debt Load: Higher existing debt results in higher interest rates.
+   - Recent Credit Checks: Frequent recent credit checks result in a higher interest rate.
+
+References
+- SEON Fraud Scores - How to Calculate Them(https://seon.io/resources/fraud-scores-how-to-calculate-them/)
+- Beginner’s Guide to Lending - How to Assess Credit Risk(https://www.taktile.com/articles/beginners-guide-to-lending-how-to-assess-credit-risk)
+- ChatGPT and Google Gemini for research and learning.
