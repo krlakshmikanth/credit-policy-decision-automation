@@ -1,21 +1,26 @@
 Agenda for the solutions architecture session
 
 Introduction: Taktile and NB36
+
 Background Context: 
 NB36’s goals for the new credit card product launch
 Summary of Taktile’s role in developing the automated onboarding solution
+
 Solution Overview:
 High-level architecture
 Key components(Pre-selection criteria, creditworthiness assessment, affordability and limit calculation)
 Taktile’s orchestration, governance and marketplace functions
+
 Deep dive:
-API’s and Data Integration
+API and Data Integration
 Error handling and exceptions
 Data Security and Compliance
+
 Project Phases:
 Timeline and resource requirements
 Testing and Validation
+
 Summary and next steps :
 Action items
-Schedule next meeting  or checkpoint
+Schedule the next meeting  or checkpoint
 
